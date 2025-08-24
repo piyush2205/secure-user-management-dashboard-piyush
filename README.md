@@ -1,6 +1,6 @@
-# Project Name
+# Secure User Management Dashboard
 
-A short description of your project.
+A secure, full-featured user management dashboard built with React, Redux Toolkit, and Vite. Includes login, registration, protected routes, and state management using Redux.
 
 ---
 
@@ -21,105 +21,118 @@ A short description of your project.
 Clone the repository:
 
 ```bash
-git clone https://github.com/username/repo-name.git
-cd repo-name
+git clone https://github.com/piyush2205/secure-user-management-dashboard.git
+cd secure-user-management-dashboard
 Install dependencies:
-
-bash
-Copy
-Edit
 npm install
 # or
 yarn install
-Usage
+
+```
+
+
+## Usage 
+```bash
 Run the development server:
 
-bash
-Copy
-Edit
 npm run dev
-# or
-yarn dev
+
+
 Build the project:
 
-bash
-Copy
-Edit
 npm run build
 # or
 yarn build
+
+
 Preview the production build:
 
-bash
-Copy
-Edit
 npm run preview
 # or
 yarn preview
-Features
-Feature 1
 
-Feature 2
 
-Feature 3
+Run linting:
 
-Redux state management
+npm run lint
+# or
+yarn lint
+
+
+Run tests:
+
+npm test
+# or
+yarn test
+
+```
+## Features
+```
+User registration and login
+
+Token-based authentication with Redux
 
 Protected routes
 
-Login/Register flow
+Redux Toolkit for state management
 
-Folder Structure
-css
-Copy
-Edit
+Async actions for API calls
+
+Form validation and error handling
+
+Unit and integration testing with Vitest
+
+Responsive UI
+```
+
+## Folder Structure
+```code
 src/
-├─ assets/
-├─ components/
-├─ features/
-├─ hooks/
-├─ lib/
-├─ pages/
-├─ routes/
-├─ store.ts
-└─ main.tsx
-Technologies
+├─ assets/                 # Images, icons, SVGs
+├─ components/             # Reusable UI components
+├─ features/               # Redux slices
+├─ hooks/                  # Custom hooks
+├─ lib/                    # API utilities
+├─ pages/                  # Page components (SignIn, SignUp, Dashboard)
+├─ routes/                 # Route components (ProtectedRoute, AllRouter)
+├─ store.ts                # Redux store configuration
+├─ main.tsx                # Entry point
+└─ test/                   # Test files
+```
+
+## Technologies
+```
 React.js
 
 Redux Toolkit
 
-React Router
+React Router DOM
 
 Axios
 
 Vite
 
-Testing: Vitest & Testing Library
+TypeScript (optional)
 
-Available Scripts
+Testing: Vitest & React Testing Library
+```
+
+## Available Scripts
+```
 Command	Description
 npm run dev	Run development server
 npm run build	Build for production
 npm run preview	Preview production build
 npm run lint	Run ESLint
 npm test	Run Vitest tests
-
 License
+
 This project is licensed under the MIT License.
 
-yaml
-Copy
-Edit
 
 ---
 
-## **3. Optional Enhancements**
-- Add **GIF/screenshots** of your app.
-- Add **Badges** for build status, coverage, etc.
-- Provide **Contribution guidelines** if open source.
+If you want, I can also **add badges and screenshots section** to make it look more professional on GitHub.  
 
----
+Do you want me to add those too?
 
-If you want, I can make a **fully polished, ready-to-copy README** specifically for your **Secure User Management Dashboard project** with all the commands, features, and folder structure included.  
-
-Do you want me to do that?
